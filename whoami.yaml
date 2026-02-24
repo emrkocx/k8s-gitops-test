@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: whoami
-          image: traefik/whoami
+          image: ghcr.io/emrkocx/k8s-gitops-test:sha-503695556df1f2efbe4569c2d4b622bc32efcf68
           ports:
             - containerPort: 80
 ---
