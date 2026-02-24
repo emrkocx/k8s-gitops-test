@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: whoami
-          image: ghcr.io/emrkocx/k8s-gitops-test:sha-9eb4436801c29170e0506b359bbd0781a8ca2326
+          image: ghcr.io/emrkocx/k8s-gitops-test:sha-6b5280f2fec0e86a5490db94432546f4f870f8f9
           ports:
             - containerPort: 80
 ---
